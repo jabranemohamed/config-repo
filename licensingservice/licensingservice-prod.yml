@@ -1,13 +1,13 @@
 example.property: "I AM IN THE default"
 spring.datasource.platform:  "mysql"
-spring.datasource.url = jdbc:mysql://localhost:3306/eagle_eye_pro
-spring.datasource.username = root
-spring.datasource.password = root
-spring.datasource.testWhileIdle = true
-spring.datasource.validationQuery = SELECT 1
-spring.jpa.show-sql = true
-spring.jpa.hibernate.ddl-auto = update
-spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
+spring.datasource.url : jdbc:mysql://localhost:3306/eagle_eye_pro
+spring.datasource.username : root
+spring.datasource.password : root
+spring.datasource.testWhileIdle : true
+spring.datasource.validationQuery : SELECT 1
+spring.jpa.show-sql : true
+spring.jpa.hibernate.ddl-auto : update
+spring.jpa.properties.hibernate.dialect : org.hibernate.dialect.MySQL5Dialect
 redis.server: "redis"
 redis.port: "6379"
 
